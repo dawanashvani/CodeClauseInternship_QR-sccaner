@@ -1,28 +1,16 @@
+# flutter_application_1
+
 A new Flutter project.
 
-Features
- Scan 2D barcodes
- Scan QR codes
- Control the flash while scanning
- Permission handling
- Support multiple barcode libraries
-Getting Started
-Flutter Project
-Add this to your package's pubspec.yaml file:
+## Getting Started
 
-dependencies: barcode_scan: "^1.0.0"
+This project is a starting point for a Flutter application.
 
-Android
-For Android, you must do the following before you can use the plugin:
+A few resources to get you started if this is your first Flutter project:
 
-Add the camera permission to your AndroidManifest.xml
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-<uses-permission android:name="android.permission.CAMERA" />
-
-Add the Barcode activity to your AndroidManifest.xml <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity"/>
-
-iOS
-To use on iOS, you must add the the camera usage description to your Info.plist
-
-<key>NSCameraUsageDescription</key>
-<string>Camera permission is required for barcode scanning.</string
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
